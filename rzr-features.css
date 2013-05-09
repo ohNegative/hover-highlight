@@ -1,0 +1,123 @@
+/* CSS Document */
+#features-container{
+	display:block;
+	min-width:740px;
+	max-width:960px;	
+	padding:0px 5px;
+	margin:0px auto;
+}
+
+#features-container > .features{
+	font-family:Arial, Helvetica, sans-serif;
+	height:600px;
+	margin:0px auto 33px;
+	position:relative;
+	top:0px;
+	left:0px;
+	width:100%;
+}
+
+#features-container > .features > h2{
+	background-color:#C31112;
+	width:100%;
+	border-radius:8px;
+	height:47px;
+	line-height:47px;
+	overflow:hidden;
+	margin-bottom: 21px;
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:5;
+}
+
+#features-container > .features > h2 > span{
+	display:block;
+	float:left;
+	font-size:24px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:white !important;
+	padding-left:13px;
+}
+
+#features-container > .features > h2 > a{
+	font-size:10px;
+	display:block;
+	float:right;
+	text-transform:uppercase;
+	text-decoration:none !important;
+	color:white !important;
+	padding:0px 20px;
+	margin:0px 11px;
+	background: transparent url( "bg-bullet-dark.png" ) no-repeat scroll 131px center;
+}
+
+
+#features-container > .features > ul > li{
+        float: left;
+        width: 280px;
+        padding: 5px 0;
+        font-size: 19px;
+        font-weight: bold;
+        list-style: none;
+}
+
+#features-container > .features > ul > li > a {
+        text-decoration: none;
+}
+
+
+.features > ul > li >  span.bullet {
+        float: left;
+        display: block;
+        height: 30px;
+        width: 32px;
+        color: #fff;
+        margin-left: 10px;
+        line-height: 27px;
+        text-align: center;
+        text-decoration: none;
+        background: transparent url( "bg-feature.png" ) no-repeat scroll 0 0;
+}
+
+
+.features > ul > li > span.feature-text {
+        float: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        display: block;
+        font-size: 11px;
+        color: #000;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-weight: bold;
+        background: transparent url( "bg-bullet-red.png" ) no-repeat scroll right 9px;
+        padding-right: 13px;
+}
+
+
+#features-container > .features > ul.column-left {
+	float: left;
+	width: 285px;
+
+}
+
+#features-container > .features > .image-container {
+	float: left;
+	width: 363px;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+
+#feature-hover-box{
+	display:none;
+	position: absolute;
+	border:2px solid #C31112;
+	background: #ccc;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
